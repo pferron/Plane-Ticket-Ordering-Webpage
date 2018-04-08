@@ -1,0 +1,162 @@
+/* 
+    Document   : mystyle
+    Created on : Sep 18, 2013, 1:00:35 AM
+    Author     : Karyn
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.button {
+                -moz-box-shadow:inset 1px 1px 0px -1px #97c4fe;
+                -webkit-box-shadow:inset 1px 1px 0px -1px #97c4fe;
+                box-shadow:inset 1px 1px 0px -1px #97c4fe;
+                background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+                background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+                background-color:#3d94f6;
+                -webkit-border-top-left-radius:20px;
+                -moz-border-radius-topleft:20px;
+                border-top-left-radius:20px;
+                -webkit-border-top-right-radius:20px;
+                -moz-border-radius-topright:20px;
+                border-top-right-radius:20px;
+                -webkit-border-bottom-right-radius:20px;
+                -moz-border-radius-bottomright:20px;
+                border-bottom-right-radius:20px;
+                -webkit-border-bottom-left-radius:20px;
+                -moz-border-radius-bottomleft:20px;
+                border-bottom-left-radius:20px;
+                text-indent:0;
+                border:1px solid #337fed;
+                display:inline-block;
+                color:#ffffff;
+                font-family:Arial;
+                font-size:14px;
+                font-weight:normal;
+                font-style:normal;
+                height:35px;
+                line-height:35px;
+                width:110px;
+                text-decoration:none;
+                text-align:center;
+                text-shadow:1px 1px 0px #1570cd;
+                }
+
+.table {
+	margin:0px;padding:0px;
+	/*width:100%;*/
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:15px;
+	-webkit-border-bottom-left-radius:15px;
+	border-bottom-left-radius:15px;
+	
+	-moz-border-radius-bottomright:15px;
+	-webkit-border-bottom-right-radius:15px;
+	border-bottom-right-radius:15px;
+	
+	-moz-border-radius-topright:15px;
+	-webkit-border-top-right-radius:15px;
+	border-top-right-radius:15px;
+	
+	-moz-border-radius-topleft:15px;
+	-webkit-border-top-left-radius:15px;
+	border-top-left-radius:15px;
+}
+.table table{
+	/*width:100%;
+	height:100%;*/
+	margin:0px;padding:0px;
+}
+
+.table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:15px;
+	-webkit-border-bottom-right-radius:15px;
+	border-bottom-right-radius:15px;
+}
+
+.table table tr:first-child td:first-child {
+	-moz-border-radius-topleft:15px;
+	-webkit-border-top-left-radius:15px;
+	border-top-left-radius:15px;
+}
+
+.table table tr:first-child td:last-child {
+	-moz-border-radius-topright:15px;
+	-webkit-border-top-right-radius:15px;
+	border-top-right-radius:15px;
+}
+
+.table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:15px;
+	-webkit-border-bottom-left-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+.table tr:hover td{
+	background-color:#ffffff;
+		
+
+}
+.table td{
+	vertical-align:middle;
+		background:-o-linear-gradient(bottom, #56ffaa 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #56ffaa), color-stop(1, #ffffff) ); 
+	background:-moz-linear-gradient( center top, #56ffaa 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#56ffaa", endColorstr="#ffffff");	background: -o-linear-gradient(top,#56ffaa,ffffff);
+
+	background-color:#56ffaa;
+
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:10px;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}
+
+.table tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+
+.table tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+
+.table tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+
+.table tr:first-child td{
+		background:-o-linear-gradient(bottom, #005fbf 5%, #56aaff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #56aaff) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #56aaff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#56aaff");	background: -o-linear-gradient(top,#005fbf,56aaff);
+
+	background-color:#005fbf;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.table tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #005fbf 5%, #56aaff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #56aaff) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #56aaff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#56aaff");	background: -o-linear-gradient(top,#005fbf,56aaff);
+
+	background-color:#005fbf;
+}
+.table tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.table tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+
+
+ 

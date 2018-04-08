@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS booking;
+CREATE DATABASE booking;
+USE booking;
+
+CREATE TABLE Orders(
+    OrderingNumber VARCHAR(20) NOT NULL,
+    EmailAddress VARCHAR(50) NOT NULL DEFAULT '',
+    
+    PRIMARY KEY (OrderingNumber)
+);
+
+INSERT INTO Orders VALUES
+  ('0000001', 'philippeferron@hotmail.com'),
+  ('0000002', 'philippeferron@yahoo.fr'),
+  ('1', 'test@hotmail.com');
